@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&family=Fjalla+One&display=swap');
+*{
+    font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+}
+
+#input{
+    background-image: url(https://www.svgbackgrounds.com/wp-content/uploads/2021/05/protruding-squares-orange-background.png);
+    width: 100vw;
+    height: 40vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+h1{
+    font-size: 4em;
+}
+p{
+    font-size: 2em;
+    margin: 10px;
+
+}
+
+#number{
+    width: 180px;
+    height: 40px;
+    font-size: 1.5em;
+    padding: 0px 10px;
+
+}
+
+#button{
+    width: 120px;
+    height: 40px;
+    font-size: 1.5em;
+    background-color: rgb(111, 176, 21);
+    color: white;
+    border: none;
+    padding: 5px;
+    margin: 6px;
+}
+
+.circle{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    color: black;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px;
+    text-align: center;
+    /* background-color: orangered; */
+
+}
+
+.square{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    color: black;
+    margin: 10px;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    /* background-color: rgb(60, 207, 11); */
+
+}
+
+.rectangle{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    color: black;
+    margin: 10px;
+    text-align: center;
+    width: 75px;
+    height: 50px;
+    /* background-color: rgb(17, 195, 192); */
+    
+}
+
+#box{
+    display: flex;
+    flex-wrap: wrap;
+}
+.co{
+width: 70px;
+height: 40px;
+border-left: 20px;
+border-radius: 10%;
+}
+
+#button:hover{
+    cursor: pointer;
+    color:black ;
+    background-color: rgb(68, 223, 161);
+    box-shadow: 0 0 10px;
+    border: 2px solid black;
+}
